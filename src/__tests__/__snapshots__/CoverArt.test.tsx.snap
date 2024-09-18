@@ -1,0 +1,13 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`renders correctly 1`] = `
+<div>
+  <div>
+    <img
+      alt="Cover Art"
+      class="rounded-md"
+      src="https://raw.githubusercontent.com/atlas-jswank/atlas-music-player-api/main/images/albumn4.webp"
+    />
+  </div>
+</div>
+`;
