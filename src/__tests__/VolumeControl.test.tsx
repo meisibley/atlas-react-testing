@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import { render } from '@testing-library/react';
-import { test, expect } from 'vitest';
-import VolumeControl from '../components/VolumeControl';
+import { render } from "@testing-library/react";
+import { expect, test } from "vitest";
+import VolumeControl from "../components/VolumeControl";
 
-test('renders correctly', () => {
-    const { container } = render (
+test("VolumeControl renders correctly", () => {
+    const { container } = render(
         <VolumeControl />
     );
-    expect(container).toMatchSnapshot;
+    expect(container).toMatchSnapshot();
 });

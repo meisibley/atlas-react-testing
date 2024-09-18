@@ -5,6 +5,7 @@ import { defineConfig } from "vite";
 export default defineConfig({
   plugins: [react()],
   test: {
-    environment: 'jsdom'
+    environment: 'jsdom',
+    setupFiles: ["./vitest.setup.ts"],
   },
 });
