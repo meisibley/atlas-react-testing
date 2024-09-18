@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @layer base {
+    body {
+        @apply bg-gray-500;
+    }
+}
+
+@layer components {
+    .btn {}
+    .card {}
+}
+
+#layer utilities {
+    .circle {
+        border-radius: 100%;
+    }
+} */
