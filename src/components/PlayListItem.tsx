@@ -22,6 +22,7 @@ export default function PlayListItem({ song, onSongSelect, isSelected }: Playlis
                         onClick={() => {
                             onSongSelect(song)
                         }}
+                        // data-testid={`playlist-item-${song.id}`} // Add data-testid here
                     >
                         <div className="w-1/2">
                             <h2 className="text-black text-md font-semibold pl-2">{song.title}</h2>

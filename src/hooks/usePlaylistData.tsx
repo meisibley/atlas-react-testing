@@ -9,7 +9,8 @@ export default function usePlaylistData() {
     useEffect(() => {
         const fetchSongs = async () => {
             try {
-                const response = await fetch('https://raw.githubusercontent.com/atlas-jswank/atlas-music-player-api/main/playlist');
+                // const response = await fetch('https://raw.githubusercontent.com/atlas-jswank/atlas-music-player-api/main/playlist');
+                const response = await fetch('https://api.example.com/api/v1/data');
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
                 }
