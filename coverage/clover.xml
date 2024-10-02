@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1727726668305" clover="3.2.0">
-  <project timestamp="1727726668305" name="All files">
+<coverage generated="1727886629897" clover="3.2.0">
+  <project timestamp="1727886629897" name="All files">
     <metrics statements="415" coveredstatements="82" conditionals="24" coveredconditionals="11" methods="20" coveredmethods="9" elements="459" coveredelements="102" complexity="0" loc="415" ncloc="415" packages="5" files="17" classes="17"/>
     <package name="atlas-react-testing">
       <metrics statements="52" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
@@ -433,9 +433,8 @@
         <metrics statements="50" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
-        <line num="6" count="0" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
         <line num="7" count="0" type="stmt"/>
         <line num="8" count="0" type="stmt"/>
         <line num="9" count="0" type="stmt"/>
@@ -478,9 +477,10 @@
         <line num="46" count="0" type="stmt"/>
         <line num="47" count="0" type="stmt"/>
         <line num="48" count="0" type="stmt"/>
-        <line num="49" count="1" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
         <line num="50" count="1" type="stmt"/>
-        <line num="52" count="1" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
       </file>
     </package>
   </project>
